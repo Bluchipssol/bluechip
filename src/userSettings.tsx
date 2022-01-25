@@ -52,11 +52,11 @@ export const welcomeSettings: WelcomeSettings = {
 
   //Title and Description
   title: "Welcome!",
-  desc: "Connect your wallet and load in! Whitelist mint starts soon!",
+  desc: "Connect your wallet and load in! Mint starts soon!",
 
   // Countdown Timer
-  countdownEnable: false,
-  countdownTo: date("2 Jan 2022 00:00:00 GMT"),
+  countdownEnable: true,
+  countdownTo: date("26 Jan 2022 15:00:00 GMT"),
   //Example date below
   // date('29 2021 00:00:00 GMT')
 
@@ -97,7 +97,7 @@ export class MintWelcomeCustomHTML extends React.Component {
 
 export const whitelistSettings: WhitelistSettings = {
   //If you want to use the whitelist feature enable it.
-  enabled: true,
+  enabled: false,
 
   startDate: date("1 Jan 2022 00:00:00 GMT"),
   endDate: date("8 Jan 2022 00:00:00 GMT"),
